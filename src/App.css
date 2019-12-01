@@ -46,6 +46,7 @@
 .title {
   font-family: 'Rock Salt', cursive;
   font-size: 1.5rem;
+  margin-block-start: 0em;
 }
 
 .author {
