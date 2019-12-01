@@ -1,22 +1,59 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-content: center;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.Jasmine {
+  position: absolute;
+  z-index: 3;
+  top: 90%;
+  color: black;
+}
+
+.LizzoQuotes {
+  position: absolute;
+  z-index: 2;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  width: 20rem;
+}  
+
+.background {
+  position: relative;
+  height:100vh;
+  z-index: 1;
+  background-position: top;
+  position: relative;
+}
+
+.button {
+  border-radius: 10rem;
+  border-color: #c669a3;
+  border-width: 2px;
+  background-color:  #e06ab4;
+  width: 8rem;
+  height: 2rem;
+  justify-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
+
+.title {
+  font-family: 'Rock Salt', cursive;
+  font-size: 1.8rem;
+}
+
+.author {
+  font-family: 'Rock Salt', cursive;
+  font-size: 1rem;
+}
+
+.quote {
+  font-weight: 600;
+  font-size: 16px;
 }
