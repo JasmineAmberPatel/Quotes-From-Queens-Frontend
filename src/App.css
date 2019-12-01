@@ -39,13 +39,13 @@
   height: 2rem;
   justify-items: center;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
 }
 
 .title {
   font-family: 'Rock Salt', cursive;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .author {
@@ -55,5 +55,5 @@
 
 .quote {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
 }
